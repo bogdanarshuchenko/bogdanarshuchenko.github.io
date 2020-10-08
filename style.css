@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1, h3	{
+	text-align: center;
+	padding: 20px;
+
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+}
+.link1{
+	color: #fff
+}
+a:hover{
+	color: red;
+}
+
+
+.science{
+	background-image: url(https://volynonline.com/wp-content/uploads/2020/02/field_image_istock-516189065.jpg);
+	height: 300px;
+	background-attachment: fixed;
+	background-position: center;
+}
+p{
+	padding: 10px;
+	font-size: 25px;
+}
+img{
+	padding: 10px;
+	width: 300px;
+	float: left;	
+}
+span{
+	padding: 10px;
+	font-size: 17px;
+}
+.block{
+	margin: 0 0 150px 0;
+	
+}
