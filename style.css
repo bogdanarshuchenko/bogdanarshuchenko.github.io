@@ -1,8 +1,10 @@
 *{
-	padding: 0;
+	padding: 0 ;
 	margin: 0;
 	box-sizing: border-box;
+	
 }
+
 h1, h3	{
 	text-align: center;
 	padding: 20px;
@@ -22,10 +24,17 @@ a:hover{
 
 .science{
 	background-image: url(https://volynonline.com/wp-content/uploads/2020/02/field_image_istock-516189065.jpg);
+	
 	height: 300px;
 	background-attachment: fixed;
 	background-position: center;
 }
+.science h1, h3{
+	font-family: 'Comfortaa', cursive;
+	
+	
+}
+
 p{
 	padding: 10px;
 	font-size: 25px;
@@ -40,6 +49,12 @@ span{
 	font-size: 17px;
 }
 .block{
-	margin: 0 0 150px 0;
+	margin: 0 20px 150px 20px;
 	
+}
+
+.colored{
+	background: url(https://volynonline.com/wp-content/uploads/2020/02/field_image_istock-516189065.jpg);
+	padding-bottom: 20px;
+	color: white;
 }
