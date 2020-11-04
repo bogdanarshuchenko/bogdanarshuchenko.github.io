@@ -139,3 +139,9 @@ td:nth-child(even):hover{
 	font-size: 30px;
 	
 }
+.card a{
+	text-decoration: none;
+}
+.card img:hover{
+	border: 2px solid lightyellow;
+}
