@@ -145,3 +145,21 @@ td:nth-child(even):hover{
 .card img:hover{
 	border: 2px solid lightyellow;
 }
+.nav-button{
+	width: 50px;
+	height: 45px;
+	position: fixed;
+	top: 870px;
+	left: 1800px;
+	border: 5px double purple;
+	border-radius: 5px;
+	background-color: lightgray;
+}
+.nav-button a{
+
+	padding: 14px;
+}
+.nav-button:hover{
+	background-color: #fff;
+	
+}
