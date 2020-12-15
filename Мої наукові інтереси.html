@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мої наукові інтереси</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:wght@500&display=swap" rel="stylesheet">
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		p:nth-child(1){
+			font-family: Pangolin;
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+			color: #6452AC;
+			margin-top: 50px;
+			text-shadow: 2px 2px;
+		}
+		
+		ul{
+			list-style-type: none;
+			display: flex;
+			justify-content: space-around;
+			margin-top: 30px;
+			flex-wrap: wrap;
+
+		}
+		li{
+			text-decoration: none;	
+			font-family: 'Rubik';
+			
+			background: #8479B2;
+			padding: 8px;
+			font-size: 18px;
+			border: 3px solid #f5f5f5;
+			transition: .7s;
+		}
+		ul a{
+			text-decoration: none;
+			color: #E6E4E4;
+		}
+		li{
+			padding: 20px;
+			margin: 10px;
+		}
+		li:hover{
+			background: #9E93D0;
+			transition: .7s;
+			color: #fff;
+			/*
+			border: 5px solid #f5f5f5;
+			font-size: 20px; */
+		}
+		
+		li:hover a{
+			transition: .7s;
+			color: #fff;
+			
+
+		}
+		img{
+			width: 250px;
+		}
+		.card{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 300px;
+			border: 1px solid black;
+			border-radius: 25px; 
+			height: 350px;
+			padding: 10px;
+			margin: 20px;
+
+		}
+		.card p{
+			font-family: arial;
+			padding: 5px;
+			font-size: 19px;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 50px;
+			justify-content: space-around;
+		}
+		span{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<p>Мої наукові інтереси</p>
+	<ul>
+		<a href="#ecology"><li>Екологія</li></a>
+		<a href="#robots"><li>Робототехніка</li></a>
+		<a href="#history"><li>Дослідження історичних подій</li></a>
+		<a href="#it"><li>Комп'ютерні технології</li></a>
+	</ul>
+	<div class="container">
+		
+		<div class="card">
+			<a name="ecology"></a>
+			<img src="https://media.wsimag.com/attachments/df40b37fdb5746a226d309e7a996e298b0848993/store/fill/1090/613/c78640663ac377a34bfaf80182f917ea3364384a9444a1f577f522c952db/We-face-an-ecological-crisis.jpg" alt="">
+			<p>Екологія</p>
+			<span>Екологія — це наука, що вивчає закономірності відносин між організмами та довкіллям, а також організацію і діяльність надорганізмових систем.</span>
+		</div>
+		<div class="card">
+			<a name="robots"></a>
+			<img src="https://www.everest.ua/wp-content/uploads/2020/04/robototehnika-v-shkolah_-osnovni-tendencii-navchannya_result.jpg" alt="">
+			<p>Робототехніка</p>
+			<span>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Dolores blanditiis, sunt mollitia cupiditate quos sed praesentium ipsam cum, beatae ratione, maxime voluptatem optio obcaecati dolor repudiandae? Sapiente at iste, quaerat.</span>
+		</div>
+		<div class="card">
+			<a name="history"></a>
+			<img src="http://telegraf.com.ua/files/2014/11/429108_pero_chernila_puzyrek_kniga_pismo_1680x1050_www.GdeFon.ru_.jpg" alt="">
+			<p>Дослідження історичних подій</p>
+			<span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis nobis quam at necessitatibus, earum magni accusamus fuga, soluta natus ipsum repudiandae harum doloribus! Veniam, consectetur voluptatibus excepturi in fugit.</span>
+		</div>
+		<div class="card">
+			<a name="it"></a>
+			<img src="https://i.ytimg.com/vi/xcCcajIqxZg/maxresdefault.jpg" alt="">
+			<p>Комп'ютерні технології</p>
+			<span>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Repudiandae autem, veritatis quia vero mollitia accusamus nostrum laboriosam tenetur deleniti, numquam quibusdam obcaecati, molestias, molestiae id ad corrupti a odio expedita.</span>
+		</div>
+	</div>
+
+	<p">
+		<h4>Credits</h4>
+		<a href="https://media.wsimag.com/">1-ша картинка</a>
+		<a href="https://www.everest.ua/">2-га картинка</a>
+		<a href="http://telegraf.com.ua/">3-тя картинка</a>
+		<a href="https://youtube.com">4-та картинка</a>
+	</p>
+	
+	
+</body>
+</html>
