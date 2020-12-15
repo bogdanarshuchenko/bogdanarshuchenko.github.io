@@ -95,29 +95,25 @@ td:nth-child(even):hover{
 }
 
 .card-handler{
+	display: flex;
+	flex-wrap: wrap;
 	padding-top: 100px;
-	height: 1000px;
-	margin: auto;
-	width: 80%;
-	border: 1px solid #fff;
+	justify-content: space-around;
 }
 .card{
 	width: 300px;
 	height: 300px;
 	border: 2px solid black;
-	float: left;
-	margin-left: 60px;
 	overflow: auto;
 	box-sizing: border-box;
 	border-radius: 3px;
+	margin: 30px;
 
 }
 .card:last-child{
 	width: 600px;
 	height: 400px;
 	border: 2px solid black;
-	margin-left: 450px;
-	margin-top: 50px;
 	overflow: auto;
 	box-sizing: border-box;
 }
